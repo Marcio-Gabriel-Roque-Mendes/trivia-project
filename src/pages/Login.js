@@ -47,7 +47,7 @@ class Login extends Component {
               onChange={this.handleChange}
               autocomplete='off'
               placeholder='Name'
-              className='text-xl block mb-10 text-white input input-bordered input-secondary w-full max-w-xs'
+              className='text-xl block mb-10 text-black input input-bordered input-secondary w-full max-w-xs'
             />
             <input
               name='gravatarEmail'
@@ -57,7 +57,7 @@ class Login extends Component {
               onChange={this.handleChange}
               placeholder='Email'
               autocomplete='off'
-              className='text-xl block mb-10 text-white input input-bordered input-secondary w-full max-w-xs'
+              className='text-xl block mb-10 text-black input input-bordered input-secondary w-full max-w-xs'
             />
             <div className='flex justify-between'>
               <button
@@ -96,6 +96,9 @@ Login.defaultProps = {
 
 const mapDispatchToProps = (dispatch) => ({
   dispatchLoginInfo: (state) => dispatch(login(state)),
+  // dispatchLoginInfo: (state) => {
+  //   dispatch(login(state))
+  // } ,
 });
 
 export default connect(null, mapDispatchToProps)(Login);
