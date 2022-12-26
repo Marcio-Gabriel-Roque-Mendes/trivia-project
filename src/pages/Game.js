@@ -6,7 +6,8 @@ class Game extends React.Component {
   render() {
     return (
       <div className=' relative h-screen w-screen'>
-        <div className='bg-black text-white w-screen h-screen flex items-center justify-center bg-[url("https://images.unsplash.com/photo-1511882150382-421056c89033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8")] bg-cover blur'></div>
+        <div className='bg-black text-white w-screen h-screen flex items-center justify-center bg-cover blur'
+        style={{ backgroundImage: `url(${imageBackgound})`}}></div>
         <div className='absolute mx-auto w-3/5 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 '>
           <div className='flex items-center justify-center text-center mt-5'>
             <div className='flex flex-col items-center justify-center w-full'>
