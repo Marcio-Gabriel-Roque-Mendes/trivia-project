@@ -19,19 +19,11 @@ class CardGame extends React.Component {
   };
 
   async componentDidMount() {
-    const { history } = this.props;
-    const ERROR_CODE = 3;
-    const token = getToken();
-    const response = await getQuestion(token);
-    if (response.response_code === ERROR_CODE) {
-      localStorage.removeItem('token');
-      history.push('/');
-    } else {
-      this.setState({
-        questions: response.results,
-        answers: shuffleAnswers(response.results),
-      });
-    }
+    const response = await getQuestion();
+    this.setState({
+      questions: response,
+      answers: shuffleAnswers(response),
+    });
     this.startTimer();
   }
 
