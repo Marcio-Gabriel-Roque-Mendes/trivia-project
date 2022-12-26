@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import { getToken } from '../services/fethApiTrivia';
-import { addToken } from '../services/saveToken';
 import { login } from '../store/Actions/index';
 import machines from './../assets/machines.avif'
 
@@ -20,8 +18,6 @@ class Login extends Component {
 
   handleBtnClick = async () => {
     const { dispatchLoginInfo, history } = this.props;
-    const token = await getToken();
-    addToken(token);
     dispatchLoginInfo({ ...this.state });
     history.push('/game');
   };

@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { getQuestion } from '../services/fethApiTrivia';
-import { getToken } from '../services/saveToken';
 import './CardGame.css';
 import NextButton from './NextButton';
 import { score as saveScore } from '../store/Actions';
