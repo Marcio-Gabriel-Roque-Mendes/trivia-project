@@ -9,12 +9,14 @@ const shuffleAnswers = (array) => {
         dataTestId: CORRECT,
         difficulty: result.difficulty,
       },
-      ...result.incorrect_answers.map((wrong, i) => ({
+      ...result.incorrectAnswers.map((wrong, i) => (
+        {
         answer: wrong,
-        className: 'btn-error wrong-answer-${i}',
+        className: `btn-error wrong-answer-${i}`,
         dataTestId: `wrong-answer-${i}`,
         difficulty: result.difficulty,
-      })),
+        }
+      )),
     ].sort(() => SORT_NUMBER - Math.random())
   );
 };
