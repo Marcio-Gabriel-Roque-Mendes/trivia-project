@@ -73,10 +73,12 @@ class CardGame extends React.Component {
       medium: 2,
       easy: 1,
     };
+
     const POINT = 10;
     const { dispatchScore } = this.props;
     const { secondsAmount } = this.state;
     const { className, difficulty } = item;
+    
     if (className.includes('correct-answer')) {
       const valor = POINT + secondsAmount * difficultyValue[difficulty];
       dispatchScore(valor);
@@ -110,7 +112,8 @@ class CardGame extends React.Component {
             </p>
             <div
               data-testid='answer-options'
-              className='flex items-center justify-center flex-wrap h-24'>
+              className='flex items-center justify-center flex-wrap h-24'
+              >
               {answers[count].map(
                 (question) =>
                   question.answer && (

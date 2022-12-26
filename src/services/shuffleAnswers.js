@@ -4,7 +4,7 @@ const shuffleAnswers = (array) => {
   return array.map((result) =>
     [
       {
-        answer: result.correct_answer,
+        answer: result.correctAnswer,
         className: CORRECT,
         dataTestId: CORRECT,
         difficulty: result.difficulty,
