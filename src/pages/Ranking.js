@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import imageBackgound from './../assets/imageBackground.jpeg'
 
 class Ranking extends React.Component {
   state = {
@@ -20,7 +21,8 @@ class Ranking extends React.Component {
 
     return (
       <div className='w-screen h-screen'>
-        <div className='bg-black text-white w-full h-full flex items-center justify-center bg-[url("https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80")] bg-cover blur'></div>
+        <div className='bg-black text-white w-full h-full flex items-center justify-center bg-cover blur'
+        style={{ backgroundImage: `url(${imageBackgound})` }}></div>
         <div className='absolute mx-auto w-4/5 mt-16 top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2'>
           <div className='flex flex-col items-center justify-center w-full'>
             <h1
