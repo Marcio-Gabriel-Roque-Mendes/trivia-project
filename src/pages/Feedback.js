@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import createEmailUrl from '../services/createEmailUrl';
 import { addInRanking } from '../services/saveRanking';
 import Header from '../components/Header';
+import imageBackgound from './../assets/imageBackground.jpeg'
 
 class Feedback extends React.Component {
   componentDidMount() {
@@ -35,7 +36,8 @@ class Feedback extends React.Component {
     const MIN_ASSERTIONS = 3;
     return (
       <div className='h-screen w-screen'>
-        <div className='bg-black text-white w-screen h-screen flex items-center justify-center bg-[url("https://images.unsplash.com/photo-1511882150382-421056c89033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8")] bg-cover blur'></div>
+        <div className='bg-black text-white w-screen h-screen flex items-center justify-center bg-cover blur'
+        style={{ backgroundImage: `url(${imageBackgound})`}}></div>        
         <div className='absolute w-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
           <div className='flex-col items-center justify-center'>
             <div className='flex items-center justify-center'>
