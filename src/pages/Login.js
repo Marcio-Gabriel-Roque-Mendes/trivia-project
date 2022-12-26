@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { getToken } from '../services/fethApiTrivia';
 import { addToken } from '../services/saveToken';
 import { login } from '../store/Actions/index';
+import machines from './../assets/machines.avif'
 
 class Login extends Component {
   state = {
@@ -31,7 +32,8 @@ class Login extends Component {
 
     return (
       <div className='w-screen h-screen'>
-        <div className='bg-black text-white w-screen h-screen flex items-center justify-center bg-[url("https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80")] bg-cover blur'></div>
+        <div className='bg-black text-white w-screen h-screen flex items-center justify-center bg-cover blur'
+          style={{ backgroundImage: `url(${machines})`}}></div>        
         <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
           <h1 className='mb-5 text-5xl font-bold text-center text-white'>
             Trivia
