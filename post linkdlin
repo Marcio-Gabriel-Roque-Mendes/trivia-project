@@ -1,0 +1,24 @@
+Ha alguns meses eu e meu grupo desenvolvemos esse projeto, ele é um jogo de perguntas e respostas baseado no jogo Trivia utilizando React e Redux, o projeto consiste em uma tela de login, tela do jogo, pagina de feedback e ranking.
+
+Se o usurário logar no jogo com o email que tiver cadastro no site Gravatar, terá sua foto associada ao perfil da pessoa usuária no jogo, logo na sequencia o usuaio tem acesso ao jogo em si.
+
+O jogo tem 5 perguntas, com 30 segundos para responder cada uma. Caso seja escolhida a resposta correta, a pontuação será baseada no tempo em que levou para responder e na dificuldade da pergunta, após o jogador terminar a partida irá para a tela de feedback e terá acesso ao Ranking global da Aplicação.
+
+As tecnologias utilizados nesse projeto foram:
+- React;
+- Redux para gerenciamento global de estado;
+- Jest e React Testing Library para os testes;
+- Tailwind para estilização;
+
+Esse projeto teve suas funcionalidades desenvolvido em grupo de acordo com as demandas definidas em um quadro Kanban, e usando também a metodologia agil Scrum para organização, grande parte do projeto foi feita em pair programming.
+
+Agradeço ao integrantes do grupo: Bruno Rodrigues, 
+Cesar Holanda e Marcelo Lima
+
+
+Veja a aplicação em funcionamento: 
+Veja o repositório da aplicação:
+
+#frontend #react #redux #testing #scrum #kanban #vqv #trybe
+
+
