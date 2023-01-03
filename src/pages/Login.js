@@ -64,13 +64,13 @@ class Login extends Component {
                 className='btn btn-secondary text-white'>
                 Play
               </button>
-              {/* <button
+              <button
                 type='button'
                 onClick={() => history.push('/settings')}
                 data-testid='btn-settings'
                 className='btn btn-primary text-white'>
                 Configurações
-              </button> */}
+              </button>
             </div>
           </div>
         </div>
