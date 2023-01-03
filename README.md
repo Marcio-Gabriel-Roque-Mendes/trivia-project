@@ -63,7 +63,7 @@ Mais informações dos colaboradores do projeto podem ser encontradas nessa publ
 
 ![Captura de tela de 2022-12-29 21-19-49](https://user-images.githubusercontent.com/99992471/210023160-feb4c678-1aaf-4739-8c0a-60e553f23f3b.png)
 
-## Prévia com os testes rodando:
-https://user-images.githubusercontent.com/99992471/210023066-aedede5e-9fa0-4def-a374-3e25ad5c5568.mp4
+## Prévia da aplicação rodando:
+https://user-images.githubusercontent.com/99992471/210459441-b383f4f7-6dab-4c7c-b910-52de13ba533f.mp4
 
-Essa aplicação React foi criada pela Trybe, para fins didáticos.
+Código desenvolvido pelo grupo no projeto Trivia durante o curso da [Trybe](https://www.betrybe.com/)
