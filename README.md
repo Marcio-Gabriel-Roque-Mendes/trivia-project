@@ -18,6 +18,7 @@ Foram desenvolvidos testes para cada tela da aplicação utilizando o <strong>Je
 ## :wrench: Principais tecnologias utilizadas: 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript);
 - [React.js](https://pt-br.reactjs.org/);
+- [Redux.js](https://redux.js.org/)
 - [React Router Dom](https://reactrouter.com/en/main)
 - [Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 - [Jest](https://jestjs.io/pt-BR/)
@@ -25,12 +26,15 @@ Foram desenvolvidos testes para cada tela da aplicação utilizando o <strong>Je
 - [Tailwind](https://tailwindcss.com/)
 
 ## Como utilizar o projeto na sua máquina
+<strong>1. Deploy:</strong>
+</br>
+https://newtrivianeon.netlify.app/
 
-<strong>1. Faça o git clone na sua máquina e entre no diretório:</strong>
+<strong>2. Faça o git clone na sua máquina e entre no diretório:</strong>
  - Lembre-se de clonar o repositório no diretório desejado na sua máquina!
  ```
- git@github.com:Marcio-Gabriel-Roque-Mendes/react-test-library.git
- cd Project React Test Library
+git@github.com:Marcio-Gabriel-Roque-Mendes/trivia-project.git
+ cd trivia-project
  ```
  Instale as dependências
  - Atente-se para instalar na pasta raiz do projeto
@@ -41,14 +45,19 @@ Inicie a aplicação
 ```
  npm start
 ```
-Rode os testes com o seguinte comando, seguido do nome de arquivo de teste que deseja executar. Exemplo:
+Rode todos os testes com o seguinte comando:
 ```
-npm test Pokemon.test.js
+npm run test 
+```
+Para rodar um teste em específico, digite o seguinte comando, seguido do nome de arquivo de teste que deseja executar. Exemplo:
+```
+npm run test CardGame.test.js
 ```
 - Dica: Todos os arquivos de testes desenvolvidos para esse projeto podem ser encontrado no seguinte diretorio:
 ```
 src/tests
 ```
+![Captura de tela de 2023-01-03 20-57-50](https://user-images.githubusercontent.com/99992471/210460937-f9eee0bc-72e7-4b39-941a-383b542bacbd.png)
 
 <strong/>Este projeto foi desenvolvido em grupo por:</strong>
 
@@ -60,8 +69,6 @@ src/tests
 Utilizamos a metodologia agil Kanban para a gestão de fluxo do nosso trabalho pelo Trello, em paralelo com outras ferramentas de comunicação assíncrona nesta caso o Slack e síncrona sendo o Zoom para videochamada. 
 
 Mais informações dos colaboradores do projeto podem ser encontradas nessa publicação feita no Linkedin.
-
-![Captura de tela de 2022-12-29 21-19-49](https://user-images.githubusercontent.com/99992471/210023160-feb4c678-1aaf-4739-8c0a-60e553f23f3b.png)
 
 ## Prévia da aplicação rodando:
 https://user-images.githubusercontent.com/99992471/210459441-b383f4f7-6dab-4c7c-b910-52de13ba533f.mp4
