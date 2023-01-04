@@ -20,7 +20,6 @@ export const getSavedRankings = () => {
 export const addInRanking = (Item) => {
   if (Item) {
     const SavedItems = readSavedRanking();
-    console.log(SavedItems);
     savedRankings([...SavedItems, Item]);
   }
 };

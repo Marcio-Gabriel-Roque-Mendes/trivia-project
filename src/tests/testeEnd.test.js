@@ -22,7 +22,7 @@ describe('', () => {
     await waitFor(() => expect(history.location.pathname)
       .toBe('/game'), { timeout: 3000 });
 
-    const resposta = await screen.findByTestId('correct-answer', undefined, {
+    const resposta = await screen.findByTestId('btn-success correct-answer', undefined, {
       timeout: 2000,
     });
 
