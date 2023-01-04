@@ -1,4 +1,4 @@
-# trivia-game (atualizar link do linkedin)
+# Trivia (atualizar link do linkedin)
 ## ✏ Sobre o projeto
 O objetivo do projeto é desenvolver uma aplicação de um jogo de <strong>trivia</strong> (jogo de perguntas e respostas), consumindo a API [The Trivia Api](https://the-trivia-api.com/) para a geração das perguntas. O projeto consiste em uma tela de login, tela do jogo, página de feedback e ranking. Se o usuário logar no jogo com o email que tiver cadastro no site Gravatar, terá sua foto associada ao perfil da pessoa usuária no jogo, logo na seqüência o usuário tem acesso ao jogo em si. :hourglass_flowing_sand:
 
@@ -66,7 +66,7 @@ src/tests
 * Marcelo Lima
 * Marcio Gabriel
 
-Utilizamos a metodologia agil Kanban para a gestão de fluxo do nosso trabalho pelo Trello, em paralelo com outras ferramentas de comunicação assíncrona nesta caso o Slack e síncrona sendo o Zoom para videochamada. 
+Utilizamos a metodologia agil Kanban para a gestão de fluxo do nosso trabalho pelo Trello, em paralelo com outras ferramentas de comunicação assíncrona neste caso o Slack e comunicação síncrona sendo o Zoom para videochamada. 
 
 Mais informações dos colaboradores do projeto podem ser encontradas nessa publicação feita no Linkedin.
 
