@@ -85,4 +85,4 @@ Mais informações dos colaboradores do projeto podem ser encontradas nessa [pub
 ## Prévia da aplicação rodando:
 https://user-images.githubusercontent.com/99992471/210459441-b383f4f7-6dab-4c7c-b910-52de13ba533f.mp4
 
-Código desenvolvido pelo grupo no projeto Trivia durante o curso da [Trybe](https://www.betrybe.com/)
+Código desenvolvido pelo grupo no projeto Trivia no curso de Desenvolvimento Full Stack da [Trybe](https://www.betrybe.com/) no qual os alunos deveriam desenvolve-lo para fins didáticos
