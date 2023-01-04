@@ -1,4 +1,4 @@
-# Trivia (atualizar link do linkedin)
+# Trivia
 ## ✏ Sobre o projeto
 O objetivo do projeto é desenvolver uma aplicação de um jogo de <strong>trivia</strong> (jogo de perguntas e respostas), consumindo a API [The Trivia Api](https://the-trivia-api.com/) para a geração das perguntas. O projeto consiste em uma tela de login, tela do jogo, página de feedback e ranking. Se o usuário logar no jogo com o email que tiver cadastro no site Gravatar, terá sua foto associada ao perfil da pessoa usuária no jogo, logo na seqüência o usuário tem acesso ao jogo em si. :hourglass_flowing_sand:
 
