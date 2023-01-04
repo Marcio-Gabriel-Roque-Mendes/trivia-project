@@ -68,7 +68,7 @@ src/tests
 
 Utilizamos a metodologia agil Kanban para a gestão de fluxo do nosso trabalho pelo Trello, em paralelo com outras ferramentas de comunicação assíncrona neste caso o Slack e comunicação síncrona sendo o Zoom para videochamada. 
 
-Mais informações dos colaboradores do projeto podem ser encontradas nessa publicação feita no Linkedin.
+Mais informações dos colaboradores do projeto podem ser encontradas nessa [publicação feita no Linkedin.](https://www.linkedin.com/posts/marcio-gabriel-roque_frontend-react-redux-activity-7016201802920407040-wxwq?utm_source=share&utm_medium=member_desktop)
 
 ## Prévia da aplicação rodando:
 https://user-images.githubusercontent.com/99992471/210459441-b383f4f7-6dab-4c7c-b910-52de13ba533f.mp4
