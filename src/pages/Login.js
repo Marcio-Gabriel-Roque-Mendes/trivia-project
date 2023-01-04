@@ -22,6 +22,10 @@ class Login extends Component {
     history.push('/game');
   };
 
+  componentDidMount(){
+    document.title = 'Trivia'
+  }
+
   render() {
     const { name, gravatarEmail } = this.state;
     const { history } = this.props;
