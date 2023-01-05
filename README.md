@@ -23,7 +23,7 @@ Foram desenvolvidos testes para cada tela da aplicação utilizando o <strong>Je
 
 * Conectar Redux aos componentes React
 
-* Uso de `actions assíncronas` na sua aplicação React que faz uso de Redux.
+* Uso de `actions assíncronas` na aplicação React que faz uso de Redux.
 
 * Uso do `React Testing Library` para escrever testes e garantir que a aplicação possua uma boa cobertura de testes
 
