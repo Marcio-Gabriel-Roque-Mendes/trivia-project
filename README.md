@@ -41,7 +41,6 @@ Foram desenvolvidos testes para cada tela da aplicação utilizando o <strong>Je
 <strong>1. Deploy:</strong>
 </br>
 <a href="https://newtrivianeon.netlify.app/" target="_blank">https://newtrivianeon.netlify.app/</a>
-<p>Confira o <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
 
 <strong>2. Faça o git clone na sua máquina e entre no diretório:</strong>
  - Lembre-se de clonar o repositório no diretório desejado na sua máquina!
