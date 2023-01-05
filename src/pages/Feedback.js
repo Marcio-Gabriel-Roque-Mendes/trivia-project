@@ -80,15 +80,11 @@ Feedback.propTypes = {
   name: PropTypes.string.isRequired,
   score: PropTypes.number.isRequired,
   gravatarEmail: PropTypes.string.isRequired,
-  assertions: PropTypes.number.isRequired, // Aqui era string, mas por exigencias no testes dizendo que era number, foi alterado
+  assertions: PropTypes.number.isRequired, 
   history: PropTypes.shape({
     push: PropTypes.func.isRequired,
   }).isRequired,
 };
-
-// Feedback.defaultProps = {
-//   assertions: {},
-// };
 
 const mapStateToProps = (globalState) => ({
   name: globalState.player.name,

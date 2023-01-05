@@ -11,7 +11,7 @@ describe('', () => {
   it('Verifica se o button esta desabilitado', async () => {
     const { history } = renderWithRouterAndRedux(<App />);
     const campoName = screen.getByTestId('input-player-name');
-    userEvent.type(campoName, 'Ada Love');
+    userEvent.type(campoName, 'Ada Love');``
 
     const campoEmailGravatar = screen.getByTestId('input-gravatar-email');
     userEvent.type(campoEmailGravatar, 'adalove@email.com');

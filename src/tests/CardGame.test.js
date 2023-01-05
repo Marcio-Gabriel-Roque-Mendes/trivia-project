@@ -48,10 +48,8 @@ describe('Teste da pagina de Game', () => {
       userEvent.click(resposta);
       const btnNext = await screen.findByRole('button', { name: /next/i });
       userEvent.click(btnNext);
-      // console.log(i);
     }
 
-    // expect(history.location.pathname).toBe("/feedback")
     await waitFor(() => expect(history.location.pathname).toBe('/feedback'));
   });
 

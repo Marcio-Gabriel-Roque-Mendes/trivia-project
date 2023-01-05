@@ -64,7 +64,6 @@ describe('Teste do component Feedback', () => {
     expect(heading).toBeInTheDocument();
   });
 
-  // player: { name: 'Player Name', gravatarEmail: 'player@email.com', score: 0, assertions: 0, }
 
   it('Verifica se o heading: Well Done, esteja na tela', () => {
     const initialState = {
