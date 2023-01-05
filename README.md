@@ -40,7 +40,8 @@ Foram desenvolvidos testes para cada tela da aplicação utilizando o <strong>Je
 ## Como utilizar o projeto na sua máquina
 <strong>1. Deploy:</strong>
 </br>
-https://newtrivianeon.netlify.app/
+<a href="https://newtrivianeon.netlify.app/">https://newtrivianeon.netlify.app/</a>
+
 
 <strong>2. Faça o git clone na sua máquina e entre no diretório:</strong>
  - Lembre-se de clonar o repositório no diretório desejado na sua máquina!
